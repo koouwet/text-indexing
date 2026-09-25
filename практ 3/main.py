@@ -15,23 +15,18 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import Normalizer
 from unidecode import unidecode
 
-# ==========================================
-# 1. НАСТРОЙКА ПУТЕЙ И ТЕМ
-# ==========================================
-DATA_DIR = Path("data")  # Путь к папочке с данными
 
-# Имена твоих подпапок и их метки
+# 1. НАСТРОЙКА ПУТЕЙ И ТЕМ
+DATA_DIR = Path("data")
+
 TOPICS = [
-    ("topic_a", "A"),  # Например: первая папка (Компьютерное зрение)
-    ("topic_b", "B"),  # Например: вторая папка (NLP)
+    ("topic_a", "A"),
+    ("topic_b", "B"),
 ]
 
 
-# ==========================================
 # 2. ФУНКЦИИ ИЗВЛЕЧЕНИЯ И ОЧИСТКИ ТЕКСТА
-# ==========================================
 def read_pdf_text(path: Path) -> str:
-  """Извлечение текста из PDF."""
   try:
     txt = pdfminer_extract_text(str(path))
     if txt and len(txt.strip()) > 100:
@@ -48,7 +43,6 @@ def read_pdf_text(path: Path) -> str:
 
 
 def cut_references(text: str) -> str:
-  """Удаление списка литературы."""
   pattern = (
       r'(?:\n|\r|\r\n)(references|литература|список литературы|appendix)\b.*$'
   )
@@ -56,7 +50,6 @@ def cut_references(text: str) -> str:
 
 
 def extract_title_abstract(text: str) -> tuple[str, str]:
-  """Выделение заголовка и аннотации."""
   lines = [l.strip() for l in text.splitlines() if l.strip()]
   title = lines[0][:300] if lines else ''
   m = re.search(
@@ -69,14 +62,11 @@ def extract_title_abstract(text: str) -> tuple[str, str]:
 
 
 def hash_text(s: str) -> str:
-  """Хеширование для удаления дубликатов."""
   return hashlib.md5(s.encode('utf-8')).hexdigest()
 
 
-# ==========================================
 # 3. ЧТЕНИЕ И СБОР ВСЕХ СТАТЕЙ
-# ==========================================
-print('--- Загрузка и парсинг PDF файлов ---')
+print('Загрузка и парсинг PDF файлов')
 rows = []
 for folder, lbl in TOPICS:
   folder_path = DATA_DIR / folder
@@ -192,11 +182,8 @@ def preprocess(text: str) -> str:
 
 df['text_clean'] = df['text'].apply(preprocess)
 
-# ==========================================
 # 5. ВЕКТОРИЗАЦИЯ (TF-IDF + SVD)
-# ==========================================
 print('--- Векторизация текстов ---')
-# Настроено под небольшое количество документов (20 шт)
 tfidf = TfidfVectorizer(
     min_df=2, max_df=0.85, ngram_range=(1, 2), max_features=10_000
 )
@@ -212,10 +199,9 @@ if use_svd:
 else:
   Xm = X
 
-# ==========================================
+
 # 6. КЛАСТЕРИЗАЦИЯ K-MEANS И ПОДБОР K
-# ==========================================
-print('--- Обучение K-Means ---')
+print('Обучение K-Means')
 
 
 def scan_k(Xm, ks=range(2, min(6, len(df)))):
@@ -255,9 +241,8 @@ kmeans = KMeans(n_clusters=k, n_init='auto', random_state=42)
 labels_pred = kmeans.fit_predict(Xm)
 df['cluster'] = labels_pred
 
-# ==========================================
+
 # 7. ИНТЕРПРЕТАЦИЯ КЛАСТЕРОВ (ТОП-ТЕРМИНЫ)
-# ==========================================
 print('\n==========================================')
 print('   ТОП-20 ТЕРМИНОВ ПО КЛАСТЕРАМ')
 print('==========================================')
@@ -290,9 +275,8 @@ for c in range(k):
   for _, r in ex.iterrows():
     print(f"[{r['id']}] Исходная тема: {r['topic']} | Заголовок: {r['title'][:100]}")
 
-# ==========================================
+
 # 8. ВИЗУАЛИЗАЦИЯ РЕЗУЛЬТАТОВ (PCA 2D)
-# ==========================================
 pca2 = PCA(n_components=2, random_state=42).fit_transform(
     Xm if use_svd else X.toarray()
 )
