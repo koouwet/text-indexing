@@ -1,0 +1,1802 @@
+[
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_005",
+    "relevance": 1
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_001",
+    "relevance": 1
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_016",
+    "relevance": 2
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_039",
+    "relevance": 2
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_006",
+    "relevance": 2
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_047",
+    "relevance": 3
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_020",
+    "relevance": 3
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_185",
+    "relevance": 3
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_011",
+    "relevance": 3
+  },
+  {
+    "query_id": 0,
+    "query_text": "искусственный интеллект",
+    "doc_id": "doc_032",
+    "relevance": 3
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_051",
+    "relevance": 1
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_070",
+    "relevance": 1
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_057",
+    "relevance": 2
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_265",
+    "relevance": 2
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_292",
+    "relevance": 2
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_053",
+    "relevance": 3
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_092",
+    "relevance": 3
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_266",
+    "relevance": 3
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_085",
+    "relevance": 3
+  },
+  {
+    "query_id": 1,
+    "query_text": "машинное обучение",
+    "doc_id": "doc_121",
+    "relevance": 3
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_270",
+    "relevance": 1
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_031",
+    "relevance": 1
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_115",
+    "relevance": 2
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_103",
+    "relevance": 2
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_096",
+    "relevance": 2
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_053",
+    "relevance": 3
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_121",
+    "relevance": 3
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_108",
+    "relevance": 3
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_107",
+    "relevance": 3
+  },
+  {
+    "query_id": 2,
+    "query_text": "нейронные сети",
+    "doc_id": "doc_284",
+    "relevance": 3
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_128",
+    "relevance": 1
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_053",
+    "relevance": 1
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_133",
+    "relevance": 2
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_094",
+    "relevance": 2
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_126",
+    "relevance": 2
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_214",
+    "relevance": 3
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_190",
+    "relevance": 3
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_129",
+    "relevance": 3
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_060",
+    "relevance": 3
+  },
+  {
+    "query_id": 3,
+    "query_text": "глубокое обучение",
+    "doc_id": "doc_292",
+    "relevance": 3
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_186",
+    "relevance": 1
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_184",
+    "relevance": 1
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_185",
+    "relevance": 2
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_183",
+    "relevance": 2
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_187",
+    "relevance": 2
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_129",
+    "relevance": 3
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_159",
+    "relevance": 3
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_059",
+    "relevance": 3
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_165",
+    "relevance": 3
+  },
+  {
+    "query_id": 4,
+    "query_text": "обработка естественного языка",
+    "doc_id": "doc_188",
+    "relevance": 3
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_139",
+    "relevance": 1
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_161",
+    "relevance": 1
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_095",
+    "relevance": 2
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_150",
+    "relevance": 2
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_171",
+    "relevance": 2
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_180",
+    "relevance": 3
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_060",
+    "relevance": 3
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_165",
+    "relevance": 3
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_159",
+    "relevance": 3
+  },
+  {
+    "query_id": 5,
+    "query_text": "компьютерное зрение",
+    "doc_id": "doc_140",
+    "relevance": 3
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_302",
+    "relevance": 1
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_337",
+    "relevance": 1
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_298",
+    "relevance": 2
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_432",
+    "relevance": 2
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_210",
+    "relevance": 2
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_347",
+    "relevance": 3
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_299",
+    "relevance": 3
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_304",
+    "relevance": 3
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_301",
+    "relevance": 3
+  },
+  {
+    "query_id": 6,
+    "query_text": "алгоритм сортировки",
+    "doc_id": "doc_325",
+    "relevance": 3
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_420",
+    "relevance": 1
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_294",
+    "relevance": 1
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_164",
+    "relevance": 2
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_443",
+    "relevance": 2
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_205",
+    "relevance": 2
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_199",
+    "relevance": 3
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_295",
+    "relevance": 3
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_431",
+    "relevance": 3
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_455",
+    "relevance": 3
+  },
+  {
+    "query_id": 7,
+    "query_text": "база данных",
+    "doc_id": "doc_480",
+    "relevance": 3
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_477",
+    "relevance": 1
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_450",
+    "relevance": 1
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_445",
+    "relevance": 2
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_131",
+    "relevance": 2
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_377",
+    "relevance": 2
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_472",
+    "relevance": 3
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_453",
+    "relevance": 3
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_455",
+    "relevance": 3
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_373",
+    "relevance": 3
+  },
+  {
+    "query_id": 8,
+    "query_text": "веб приложение",
+    "doc_id": "doc_462",
+    "relevance": 3
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_425",
+    "relevance": 1
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_362",
+    "relevance": 1
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_277",
+    "relevance": 2
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_452",
+    "relevance": 2
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_067",
+    "relevance": 2
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_377",
+    "relevance": 3
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_264",
+    "relevance": 3
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_467",
+    "relevance": 3
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_129",
+    "relevance": 3
+  },
+  {
+    "query_id": 9,
+    "query_text": "язык программирования python",
+    "doc_id": "doc_133",
+    "relevance": 3
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_473",
+    "relevance": 1
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_467",
+    "relevance": 1
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_443",
+    "relevance": 2
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_428",
+    "relevance": 2
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_377",
+    "relevance": 2
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_357",
+    "relevance": 3
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_394",
+    "relevance": 3
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_390",
+    "relevance": 3
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_344",
+    "relevance": 3
+  },
+  {
+    "query_id": 10,
+    "query_text": "операционная система",
+    "doc_id": "doc_366",
+    "relevance": 3
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_411",
+    "relevance": 1
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_400",
+    "relevance": 1
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_044",
+    "relevance": 2
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_098",
+    "relevance": 2
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_053",
+    "relevance": 2
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_214",
+    "relevance": 3
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_366",
+    "relevance": 3
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_159",
+    "relevance": 3
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_292",
+    "relevance": 3
+  },
+  {
+    "query_id": 11,
+    "query_text": "компьютерная сеть",
+    "doc_id": "doc_356",
+    "relevance": 3
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_398",
+    "relevance": 1
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_406",
+    "relevance": 1
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_035",
+    "relevance": 2
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_417",
+    "relevance": 2
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_166",
+    "relevance": 2
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_415",
+    "relevance": 3
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_438",
+    "relevance": 3
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_202",
+    "relevance": 3
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_401",
+    "relevance": 3
+  },
+  {
+    "query_id": 12,
+    "query_text": "информационная безопасность",
+    "doc_id": "doc_081",
+    "relevance": 3
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_431",
+    "relevance": 1
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_410",
+    "relevance": 1
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_402",
+    "relevance": 2
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_424",
+    "relevance": 2
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_478",
+    "relevance": 2
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_351",
+    "relevance": 3
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_376",
+    "relevance": 3
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_455",
+    "relevance": 3
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_443",
+    "relevance": 3
+  },
+  {
+    "query_id": 13,
+    "query_text": "объектно ориентированное программирование",
+    "doc_id": "doc_457",
+    "relevance": 3
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_412",
+    "relevance": 1
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_399",
+    "relevance": 1
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_392",
+    "relevance": 2
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_146",
+    "relevance": 2
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_312",
+    "relevance": 2
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_302",
+    "relevance": 3
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_249",
+    "relevance": 3
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_318",
+    "relevance": 3
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_416",
+    "relevance": 3
+  },
+  {
+    "query_id": 14,
+    "query_text": "теория алгоритмов",
+    "doc_id": "doc_308",
+    "relevance": 3
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_110",
+    "relevance": 1
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_053",
+    "relevance": 1
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_108",
+    "relevance": 2
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_103",
+    "relevance": 2
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_292",
+    "relevance": 2
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_117",
+    "relevance": 3
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_031",
+    "relevance": 3
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_121",
+    "relevance": 3
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_296",
+    "relevance": 3
+  },
+  {
+    "query_id": 15,
+    "query_text": "искусственные нейронные сети",
+    "doc_id": "doc_026",
+    "relevance": 3
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_096",
+    "relevance": 1
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_270",
+    "relevance": 1
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_121",
+    "relevance": 2
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_276",
+    "relevance": 2
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_107",
+    "relevance": 2
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_101",
+    "relevance": 3
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_053",
+    "relevance": 3
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_031",
+    "relevance": 3
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_103",
+    "relevance": 3
+  },
+  {
+    "query_id": 16,
+    "query_text": "рекуррентная нейронная сеть",
+    "doc_id": "doc_113",
+    "relevance": 3
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_293",
+    "relevance": 1
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_083",
+    "relevance": 1
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_053",
+    "relevance": 2
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_159",
+    "relevance": 2
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_270",
+    "relevance": 2
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_031",
+    "relevance": 3
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_115",
+    "relevance": 3
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_103",
+    "relevance": 3
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_096",
+    "relevance": 3
+  },
+  {
+    "query_id": 17,
+    "query_text": "сверточная нейронная сеть",
+    "doc_id": "doc_121",
+    "relevance": 3
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_266",
+    "relevance": 1
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_264",
+    "relevance": 1
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_265",
+    "relevance": 2
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_058",
+    "relevance": 2
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_147",
+    "relevance": 2
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_063",
+    "relevance": 3
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_106",
+    "relevance": 3
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_270",
+    "relevance": 3
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_273",
+    "relevance": 3
+  },
+  {
+    "query_id": 18,
+    "query_text": "градиентный бустинг",
+    "doc_id": "doc_333",
+    "relevance": 3
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_287",
+    "relevance": 1
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_273",
+    "relevance": 1
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_276",
+    "relevance": 2
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_219",
+    "relevance": 2
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_281",
+    "relevance": 2
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_294",
+    "relevance": 3
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_271",
+    "relevance": 3
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_195",
+    "relevance": 3
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_051",
+    "relevance": 3
+  },
+  {
+    "query_id": 19,
+    "query_text": "метод опорных векторов",
+    "doc_id": "doc_053",
+    "relevance": 3
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_267",
+    "relevance": 1
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_109",
+    "relevance": 1
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_288",
+    "relevance": 2
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_103",
+    "relevance": 2
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_220",
+    "relevance": 2
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_077",
+    "relevance": 3
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_266",
+    "relevance": 3
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_084",
+    "relevance": 3
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_092",
+    "relevance": 3
+  },
+  {
+    "query_id": 20,
+    "query_text": "логистическая регрессия",
+    "doc_id": "doc_290",
+    "relevance": 3
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_087",
+    "relevance": 1
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_055",
+    "relevance": 1
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_281",
+    "relevance": 2
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_219",
+    "relevance": 2
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_031",
+    "relevance": 2
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_202",
+    "relevance": 3
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_118",
+    "relevance": 3
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_279",
+    "relevance": 3
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_274",
+    "relevance": 3
+  },
+  {
+    "query_id": 21,
+    "query_text": "кластеризация данных",
+    "doc_id": "doc_206",
+    "relevance": 3
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_134",
+    "relevance": 1
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_087",
+    "relevance": 1
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_274",
+    "relevance": 2
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_289",
+    "relevance": 2
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_102",
+    "relevance": 2
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_142",
+    "relevance": 3
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_312",
+    "relevance": 3
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_281",
+    "relevance": 3
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_303",
+    "relevance": 3
+  },
+  {
+    "query_id": 22,
+    "query_text": "метод k средних",
+    "doc_id": "doc_302",
+    "relevance": 3
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_393",
+    "relevance": 1
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_288",
+    "relevance": 1
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_202",
+    "relevance": 2
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_009",
+    "relevance": 2
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_480",
+    "relevance": 2
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_051",
+    "relevance": 3
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_281",
+    "relevance": 3
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_055",
+    "relevance": 3
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_278",
+    "relevance": 3
+  },
+  {
+    "query_id": 23,
+    "query_text": "анализ данных",
+    "doc_id": "doc_023",
+    "relevance": 3
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_414",
+    "relevance": 1
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_393",
+    "relevance": 1
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_087",
+    "relevance": 2
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_168",
+    "relevance": 2
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_324",
+    "relevance": 2
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_296",
+    "relevance": 3
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_139",
+    "relevance": 3
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_048",
+    "relevance": 3
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_289",
+    "relevance": 3
+  },
+  {
+    "query_id": 24,
+    "query_text": "большие данные",
+    "doc_id": "doc_205",
+    "relevance": 3
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_445",
+    "relevance": 1
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_441",
+    "relevance": 1
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_259",
+    "relevance": 2
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_128",
+    "relevance": 2
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_292",
+    "relevance": 2
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_421",
+    "relevance": 3
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_322",
+    "relevance": 3
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_040",
+    "relevance": 3
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_304",
+    "relevance": 3
+  },
+  {
+    "query_id": 25,
+    "query_text": "облачные вычисления",
+    "doc_id": "doc_399",
+    "relevance": 3
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_455",
+    "relevance": 1
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_310",
+    "relevance": 1
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_470",
+    "relevance": 2
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_212",
+    "relevance": 2
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_264",
+    "relevance": 2
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_346",
+    "relevance": 3
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_399",
+    "relevance": 3
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_420",
+    "relevance": 3
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_392",
+    "relevance": 3
+  },
+  {
+    "query_id": 26,
+    "query_text": "распределенные системы",
+    "doc_id": "doc_465",
+    "relevance": 3
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_412",
+    "relevance": 1
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_070",
+    "relevance": 1
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_324",
+    "relevance": 2
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_338",
+    "relevance": 2
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_399",
+    "relevance": 2
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_392",
+    "relevance": 3
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_146",
+    "relevance": 3
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_325",
+    "relevance": 3
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_419",
+    "relevance": 3
+  },
+  {
+    "query_id": 27,
+    "query_text": "криптография",
+    "doc_id": "doc_332",
+    "relevance": 3
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_166",
+    "relevance": 1
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_400",
+    "relevance": 1
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_421",
+    "relevance": 2
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_182",
+    "relevance": 2
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_406",
+    "relevance": 2
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_179",
+    "relevance": 3
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_048",
+    "relevance": 3
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_165",
+    "relevance": 3
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_395",
+    "relevance": 3
+  },
+  {
+    "query_id": 28,
+    "query_text": "блокчейн технологии",
+    "doc_id": "doc_269",
+    "relevance": 3
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_173",
+    "relevance": 1
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_044",
+    "relevance": 1
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_116",
+    "relevance": 2
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_249",
+    "relevance": 2
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_476",
+    "relevance": 2
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_413",
+    "relevance": 3
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_439",
+    "relevance": 3
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_263",
+    "relevance": 3
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_056",
+    "relevance": 3
+  },
+  {
+    "query_id": 29,
+    "query_text": "интернет вещей",
+    "doc_id": "doc_474",
+    "relevance": 3
+  }
+]
