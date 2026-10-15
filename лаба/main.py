@@ -1,7 +1,13 @@
 import json
+import ssl
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+
+# Обходим проблему с SSL-сертификатами на Windows
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
 
 # Профильные категории arXiv для ИИ
 CATEGORIES = [
@@ -17,9 +23,10 @@ doc_id = 1
 print("Скачиваем статьи напрямую с arXiv API...")
 
 for cat, cat_name in CATEGORIES:
-  # Запрашиваем по 130 статей на каждую подтему ИИ
   url = f"http://export.arxiv.org/api/query?search_query=cat:{cat}&start=0&max_results=130"
-  data = urllib.request.urlopen(url).read()
+  
+  # Передаем контекст безопасности
+  data = urllib.request.urlopen(url, context=ctx).read()
   root = ET.fromstring(data)
 
   ns = {"atom": "http://www.w3.org/2005/Atom"}
@@ -30,7 +37,6 @@ for cat, cat_name in CATEGORIES:
         entry.find("atom:summary", ns).text.strip().replace("\n", " ")
     )
 
-    # Формируем структуру документа
     doc = {
         "id": f"doc_{doc_id:03d}",
         "title": f"[{cat_name}] {title}",
@@ -40,7 +46,6 @@ for cat, cat_name in CATEGORIES:
     corpus.append(doc)
     doc_id += 1
 
-# Сохраняем ровно 500 документов (или столько, сколько собрали)
 corpus = corpus[:500]
 
 with open("corpus.json", "w", encoding="utf-8") as f:
