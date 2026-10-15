@@ -1,56 +1,104 @@
 import json
-import ssl
-import urllib.parse
-import urllib.request
-import xml.etree.ElementTree as ET
+import requests
 
-# Обходим проблему с SSL-сертификатами на Windows
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
-
-# Профильные категории arXiv для ИИ
-CATEGORIES = [
-    ("cs.AI", "Искусственный интеллект"),
-    ("cs.LG", "Машинное обучение"),
-    ("cs.CV", "Компьютерное зрение"),
-    ("cs.CL", "Обработка естественного языка"),
+queries = [
+    "Искусственный интеллект",
+    "Машинное обучение",
+    "Нейронная сеть",
+    "Глубокое обучение",
+    "Компьютерное зрение",
+    "Обработка естественного языка",
+    "Обучение с подкреплением",
+    "Трансформер (архитектура)",
+    "Градиентный бустинг",
+    "Рекуррентная нейронная сеть",
+    "Сверточная нейронная сеть",
+    "Алгоритм",
+    "Компьютерная программа",
+    "Информатика",
+    "Программное обеспечение",
 ]
 
 corpus = []
+seen_titles = set()
 doc_id = 1
 
-print("Скачиваем статьи напрямую с arXiv API...")
+# Википедия требует описательный User-Agent с контактами
+headers = {
+    "User-Agent": "UniversityLabSearchBot/1.0 (student_project@mail.ru) python-requests"
+}
 
-for cat, cat_name in CATEGORIES:
-  url = f"http://export.arxiv.org/api/query?search_query=cat:{cat}&start=0&max_results=130"
-  
-  # Передаем контекст безопасности
-  data = urllib.request.urlopen(url, context=ctx).read()
-  root = ET.fromstring(data)
+session = requests.Session()
+session.headers.update(headers)
 
-  ns = {"atom": "http://www.w3.org/2005/Atom"}
+print("Сбор реальных статей из русской Википедии через API...")
 
-  for entry in root.findall("atom:entry", ns):
-    title = entry.find("atom:title", ns).text.strip().replace("\n", " ")
-    summary_raw = (
-        entry.find("atom:summary", ns).text.strip().replace("\n", " ")
-    )
+for query in queries:
+  if len(corpus) >= 500:
+    break
 
-    doc = {
-        "id": f"doc_{doc_id:03d}",
-        "title": f"[{cat_name}] {title}",
-        "summary": summary_raw[:200] + "...",
-        "text": f"Научное исследование в области {cat_name}. Тема: {title}. Полное описание работы: {summary_raw}",
-    }
-    corpus.append(doc)
-    doc_id += 1
+  search_url = "https://ru.wikipedia.org/w/api.php"
+  params = {
+      "action": "query",
+      "list": "search",
+      "srsearch": query,
+      "format": "json",
+      "srlimit": 50,
+  }
 
-corpus = corpus[:500]
+  try:
+    response = session.get(search_url, params=params, timeout=10)
+    if response.status_code != 200:
+      print(f"Ошибка HTTP {response.status_code} для запроса {query}")
+      continue
+
+    data = response.json()
+    search_results = data.get("query", {}).get("search", [])
+
+    for item in search_results:
+      title = item["title"]
+      if title in seen_titles:
+        continue
+
+      extract_params = {
+          "action": "query",
+          "prop": "extracts",
+          "explaintext": True,
+          "titles": title,
+          "format": "json",
+      }
+      ext_response = session.get(search_url, params=extract_params, timeout=10)
+      if ext_response.status_code != 200:
+        continue
+
+      ext_data = ext_response.json()
+      pages = ext_data.get("query", {}).get("pages", {})
+
+      for page_id, page_info in pages.items():
+        if page_id == "-1":
+          continue
+        text = page_info.get("extract", "")
+        if len(text.strip()) > 300:
+          corpus.append({
+              "id": f"doc_{doc_id:03d}",
+              "title": title,
+              "summary": text.strip()[:200] + "...",
+              "text": text.strip(),
+          })
+          seen_titles.add(title)
+          doc_id += 1
+          print(f"[{len(corpus)}/500] Добавлено: {title}")
+
+          if len(corpus) >= 500:
+            break
+      if len(corpus) >= 500:
+        break
+  except Exception as e:
+    print(f"Ошибка при запросе {query}: {e}")
 
 with open("corpus.json", "w", encoding="utf-8") as f:
   json.dump(corpus, f, ensure_ascii=False, indent=4)
 
 print(
-    f"Готово! В corpus.json сохранен 100% целевой корпус из {len(corpus)} научных статей по ИИ."
+    f"Готово! Собрано реальных документов: {len(corpus)}, сохранено в corpus.json"
 )
