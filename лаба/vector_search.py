@@ -29,6 +29,43 @@ def train_vector_model():
   vectorizer = TfidfVectorizer(max_features=10000)
   tfidf_matrix = vectorizer.fit_transform(processed_texts)
 
+  # Гарантированный вывод заполненных ненулевых ячейки для отчета
+  print("\n--- Фрагмент матрицы TF-IDF (значимые веса) ---")
+  feature_names = vectorizer.get_feature_names_out()
+  dense_matrix = tfidf_matrix.toarray()
+
+  non_zero_rows, non_zero_cols = np.nonzero(dense_matrix)
+
+  if len(non_zero_rows) > 0:
+    # Находим колонки с наибольшим количеством заполненных ячеек
+    col_counts = np.bincount(
+        non_zero_cols, minlength=dense_matrix.shape[1]
+    )
+    top_cols = np.argsort(col_counts)[::-1][:5]
+
+    # Находим документы, в которых эти слова точно встречаются
+    sample_rows = []
+    for r in np.unique(non_zero_rows):
+      if any(dense_matrix[r, c] > 0 for c in top_cols):
+        sample_rows.append(r)
+      if len(sample_rows) >= 5:
+        break
+    if not sample_rows:
+      sample_rows = np.unique(non_zero_rows)[:5]
+
+    print(f"{'Документ':<10}", end="")
+    for col_idx in top_cols:
+      print(f"{feature_names[col_idx][:10]:<12}", end="")
+    print()
+
+    for row_idx in sample_rows:
+      print(f"doc_{row_idx+1:<6}", end="")
+      for col_idx in top_cols:
+        val = dense_matrix[row_idx, col_idx]
+        print(f"{val:<12.4f}", end="")
+      print()
+  print("-" * 70 + "\n")
+
   # 5. Усеченное сингулярное разложение (SVD) для уменьшения размерности
   n_components = min(100, tfidf_matrix.shape[0] - 1)
   svd = TruncatedSVD(n_components=n_components, random_state=42)
